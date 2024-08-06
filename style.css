@@ -57,6 +57,7 @@ html, body {
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
+    
 }
 
 #nav h4{
@@ -67,6 +68,8 @@ html, body {
     font-size: 12px;
     text-decoration: none;
     text-transform: lowercase;
+    box-shadow: 0 0 10px rgba(251, 249, 249, 0.961);
+
 }
 
 #heading {
@@ -80,6 +83,7 @@ html, body {
     font-size: 6vw;
     text-transform: uppercase;
     font-weight: 900;
+    
 }
 
 #heading #secondh1 {
@@ -218,6 +222,8 @@ html, body {
 #about img {
     width: 200px;
     border-radius: 20%;
+    box-shadow: 0 0 10px rgba(251, 249, 249, 0.961);
+
 }
 
 #textabout a {
@@ -227,6 +233,8 @@ html, body {
     color: #fff;
     font-size: 12px;
     text-decoration: none;
+    box-shadow: 0 0 10px rgba(251, 249, 249, 0.961);
+
 }
 
 
@@ -240,17 +248,10 @@ html, body {
     padding: 40px 30px;
 }
 
-#footerleft {
-    display: flex;
-    gap: 20px;
-}
-
-#footerleft h4{
-    padding-top: 7px;
-}
 
 #footerright {
     display: flex;
+    padding-left: 1116px;
     gap: 30px;
 }
 
@@ -279,6 +280,8 @@ html, body {
     width: 300px;
     text-align: center;
     display: flex;
+    box-shadow: 0 0 10px rgba(251, 249, 249, 0.961);
+
 
 }
 
@@ -310,6 +313,7 @@ html, body {
     border-right: 10px solid transparent;
     border-top: 10px solid #fbf9f9;
     animation: popUp 1.5s infinite;
+
 }
 @keyframes popUp {
     0%, 100% {
@@ -320,4 +324,16 @@ html, body {
         opacity: 1;
         bottom: -0px;
     }
+}
+
+#footerleft {
+
+    color: #f7fbf8;
+}
+
+#footerleft h4{
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
